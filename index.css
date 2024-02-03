@@ -60,9 +60,12 @@ main ul{
    background-color: #1a4820;
    transform: translate(5%,5%);
  }
- #movieListings {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
+#movieListings {
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
    padding: 10px;
+   padding-left: 25px;
+   margin: 15px;
+   
 }
